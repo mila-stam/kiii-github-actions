@@ -15,7 +15,7 @@ jobs:
       - name: Run Super-Linter
         uses: super-linter/super-linter@v7.3.0
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
           # Optionally, restrict to just HTML and Dockerfile
           FILTER_REGEX_INCLUDE: .*\.(html|dockerfile)$
 
